@@ -4,6 +4,10 @@
     border: 5px solid palevioletred;
     overflow: scroll;
 }
+.images-logo{
+    width: 100px;
+    height: 100px;
+}
 .box-2{
     width: 400px;
     height: 200px;

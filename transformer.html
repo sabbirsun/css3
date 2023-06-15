@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformer</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            border: 2px solid rebeccapurple;
+        }
+        .outer{
+            background-color: gray;
+        }
+        .inner{
+            background-color: indianred;
+            transform: scale(0.75) rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>Transformer</h1>
+    <div class="box outer">
+        <div class="box inner">Box-1</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">Box-2</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">Box-3</div>
+    </div>
+</body>
+</html>
