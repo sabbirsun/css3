@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cricket</title>
+    <style>
+        .ball{
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            border-radius: 100px;
+            position: relative;
+            left: 480px;
+            transition: transform 2s ease-in-out 2s;
+        }
+        .cricket:hover .ball{
+            transform: translate(1000px, -500px);
+        }
+        .bat{
+            transition: transform 2s ease-in-out;
+        }
+        .bat:hover{
+            transform: rotate(-21deg);
+            transform-origin: 100% 0%;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="cricket">
+        <img class="bat" src="images/cricket.png" alt="">
+        <div class="ball">
+
+        </div>
+    </div>
 </body>
 </html>
